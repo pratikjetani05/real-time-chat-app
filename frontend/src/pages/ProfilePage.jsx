@@ -22,22 +22,25 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="h-screen pt-10 overflow-hidden ">
+    <div className="h-screen pt-6 overflow-hidden ">
       <div className="max-w-2xl mx-auto px-4  py-12">
         <div className="bg-base-300 rounded-xl p-6 space-y-8">
           <div className="text-center">
             <h1 className="text-2xl font-semibold">Profile</h1>
-            <p className="mt-2">Your profile information</p>
+            {/* <p className="mt-2">Your profile information</p> */}
           </div>
 
           {/* avatar upload section */}
           <div className="flex flex-col items-center gap-4">
             <div className="relative">
-              <img
-                src={selectedImg || authUser?.profilePic || "/avatar.png"}
-                alt="Profile"
-                className="size-32 rounded-full object-cover border-4"
-              />
+              <div className="w-32 h-32 rounded-full border-4 border-base-300 bg-base-200 flex items-center justify-center overflow-hidden">
+                <img
+                  src={selectedImg || authUser?.profilePic || "/avatar.png"}
+                  alt="Profile"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
               <label
                 htmlFor="avatar-upload"
                 className={`absolute bottom-0 right-0 bg-base-content hover:scale-105 rounded-full p-2 cursor-pointer  transition-all duration-200 ${
@@ -86,8 +89,8 @@ const ProfilePage = () => {
           </div>
 
           {/* additional section */}
-          <div className="mt-6 bg-base-200 rounded-xl p-6">
-            <h2 className="text-lg font-medium mb-4">Account Informatio</h2>
+          <div className="mt-4 bg-base-200 rounded-xl p-4">
+            <h2 className="text-lg font-medium mb-4">Account Information</h2>
             <div className="space-y-3 text-sm">
               <div className="flex items-center justify-between py-2 border-b border-zinc-700">
                 <span>Member Since</span>
