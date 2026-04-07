@@ -17,6 +17,18 @@ Chatify is a full-stack real-time chat application built using the MERN stack. I
 
 ---
 
+
+
+## 🌐 Live Demo
+
+👉 Add your deployed link here
+Example:
+
+```
+https://real-time-chat-app-r8u5.onrender.com/
+```
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend:
@@ -125,16 +137,6 @@ npm run dev
 | JWT_SECRET | Secret key for authentication |
 | PORT       | Backend server port           |
 
----
-
-## 🌐 Live Demo
-
-👉 Add your deployed link here
-Example:
-
-```
-https://chatify-app.vercel.app
-```
 
 ---
 
