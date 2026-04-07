@@ -1,10 +1,4 @@
-Here’s a **complete professional README.md** for your **Chatify (Real-Time Chat App)** including screenshot support from your `frontend/src/assets` folder 👇
 
----
-
-## ✅ 📄 README.md (Copy-Paste Code)
-
-```md
 # 💬 Chatify - Real-Time Chat Application
 
 Chatify is a full-stack real-time chat application built using the MERN stack. It allows users to communicate instantly with a modern UI and smooth user experience.
@@ -46,18 +40,17 @@ Chatify is a full-stack real-time chat application built using the MERN stack. I
 Chatify/
 │
 ├── backend/
-│   ├── src/
-│   ├── controllers/
-│   ├── routes/
-│   └── models/
+│ ├── src/
+│ ├── controllers/
+│ ├── routes/
+│ └── models/
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── assets/   <-- Screenshots here
-│
-└── README.md
+│ ├── dist/
+│ ├── node_modules/
+│ ├── public/
+│ ├── src/
+│ │ ├── ...
 
 ````
 
@@ -67,16 +60,16 @@ Chatify/
 
 
 ### 🔑 Login Page
-![Login](frontend/public/Screenshot%20(6).png)
+![Login](frontend/src/assets/login.png)
 
 ### 📝 Profile Page
-![Signup](frontend/public/Screenshot%202026-04-07%20165449.png)
+![Profile](frontend/src/assets/profile.png)
 
 ### 💬 Chat Interface
-![Chat](frontend/public/Screenshot%202026-04-07%20165420.png)
+![Chat](frontend/src/assets/chatui.png)
 
-### 🧑‍🤝‍🧑 Setting Page
-![Users](frontend/public/Screenshot%20(4).png)
+### ⚙️ Setting Page
+![Settings](frontend/src/assets/setting.png)
 
 ---
 
